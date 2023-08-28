@@ -1,0 +1,7 @@
+crm_socialfood.manageRotation:
+  path: '/admin/crm_socialfood'
+  defaults:
+    _title: 'crm'
+    _controller: '\Drupal\crm_socialfood\Controller\CrmSocialfoodController::crmsocialfoodtable'
+  requirements:
+    _permission: 'access crm socialfood'

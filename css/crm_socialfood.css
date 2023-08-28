@@ -1,0 +1,211 @@
+body{
+  background-color: #f0efef!important;
+}
+.layout-container {
+  margin: 0;
+}
+.content-header {
+  display: none;
+}
+.breadcrumb{
+  display: none;
+}
+.crm-container{
+  padding: 0!important;
+  margin: 0!important;
+  border: 0;
+}
+.crm-container .fieldset-wrapper img{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+.crm-container .fieldset-wrapper h1{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 55px;
+  font-size: 30px;
+  color: white;
+}
+.crm-socialfood-change-form .form-radios{
+  display: flex;
+  justify-content: space-around;
+}
+.crm-socialfood-change-form .form-radios .option{
+  font-size: 30px;
+  display: block;
+  width: 100%;
+}
+.crm-socialfood-change-form .form-radios input{
+  display: none;
+}
+.crm-socialfood-change-form .form-radios label{
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0px;
+  margin: 0;
+  color: white;
+}
+.form-type-radio{
+  width: 50%;
+}
+.crm-socialfood-change-form .form-radios .form-item{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.crm-socialfood-change-form .form-radios .form-item:nth-child(1){
+  background-color: #5d5d5d;
+}
+.crm-socialfood-change-form .form-radios .form-item:nth-child(2){
+  background-color: #707070;
+}
+.crm-socialfood-change-form .form-radios .form-item:nth-child(3){
+  background-color: #7d7d7d;
+}
+.crm-socialfood-change-form .form-radios .form-item:nth-child(4){
+  background-color: #8e8e8e;
+}
+.crm-socialfood-change-form .active{
+  background-color: #00aeef;
+}
+.crm-socialfood-form thead th,
+.crm-socialfood-user-form thead th {
+  color: white;
+  border: 0;
+  background: #7d7d7d;
+}
+.crm-socialfood-form tbody tr,
+.crm-socialfood-user-form tbody tr {
+  color: #3e4344;
+  border-bottom: 1px solid #e6e4df;
+  background: #b1e2ef;
+}
+.crm-socialfood-form{
+  margin: 0 auto;
+  width: 98%;
+}
+.crm-socialfood-user-form{
+  margin: 0 auto;
+  width: 98%;
+}
+.crm-socialfood-form tbody tr:hover{
+  background: #b1e2ef;
+}
+
+.crm-socialfood-user-form tbody tr:hover{
+  background: #b1e2ef;
+}
+
+.crm-socialfood-filters{
+  display: flex;
+  justify-content: start;
+}
+.crm-socialfood-filters fieldset{
+  margin-right: 2rem;
+}
+.crm-socialfood-filters-users{
+  display: flex;
+  justify-content: start;
+}
+.crm-socialfood-filters-users fieldset{
+  margin-right: 2rem;
+}
+.crm-radio-categoria .fieldset-wrapper .form-radios{
+  display: flex;
+}
+.crm-radio-sensibilidades .fieldset-wrapper .form-radios{
+  display: flex;
+}
+.crm-radio-lugar .fieldset-wrapper .form-radios{
+  display: flex;
+}
+
+.crm-radio-categoria .fieldset-wrapper .form-radios .form-item{
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+.crm-radio-sensibilidades .fieldset-wrapper .form-radios .form-item{
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+.crm-radio-lugar .fieldset-wrapper .form-radios .form-item{
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.crm-radio-categoria .fieldset-wrapper .form-radios .form-item label{
+  margin-left: 0.5rem;
+  text-wrap: nowrap;
+}
+.crm-radio-sensibilidades .fieldset-wrapper .form-radios .form-item label{
+  margin-left: 0.5rem;
+  text-wrap: nowrap;
+}
+.crm-radio-lugar .fieldset-wrapper .form-radios .form-item label{
+  margin-left: 0.5rem;
+  text-wrap: nowrap;
+}
+.crm-socialfood-date-form{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin: 0 1rem;
+}
+.crm-socialfood-date-form .label{
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+.crm-socialfood-date-form .form-date{
+  border: none;
+  border-bottom: 1px solid;
+  padding-bottom: 0;
+  background-color: transparent;
+  box-shadow: none;
+}
+.crm-totals thead th{
+  background-color: #f7943d;
+  border-bottom: 1px solid #f7943d;
+}
+
+.crm-totals{
+  margin: 0;
+}
+.crm-header thead th{
+  border-bottom: 1px solid #7d7d7d;
+}
+.crm-totals th{
+  text-align: center;
+}
+.crm-header th{
+  text-align: center;
+}
+.crm-totals td{
+  text-align: center;
+}
+.crm-header td{
+  text-align: center;
+}
+.crm-socialfood-user-form th{
+  text-align: center;
+}
+.crm-socialfood-user-form td{
+  text-align: center;
+}
+
+.crm-socialfood-filters input[type='radio'] {
+  box-sizing: border-box;
+  appearance: none;
+  background: white;
+  outline: 1px solid #c7c5c5;
+  border: 3px solid white;
+  width: 16px;
+  height: 16px;
+}
+
+.crm-socialfood-filters input[type='radio']:checked {
+  background-color: #00aeef;
+}

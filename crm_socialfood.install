@@ -1,0 +1,215 @@
+<?php
+
+function crm_socialfood_schema() {
+
+  $schema['crm_socialfood'] = array(
+    'description' => 'A table to store socialfood crm data.',
+    'fields' => array(
+      'SOCIALFOOD_ID' => array(
+        'description' => 'user name',
+        'type' => 'varchar',
+        'length' => '50',
+        'not null' => TRUE,
+      ),
+      'SOCIALCHEF' => array(
+        'description' => 'user name',
+        'type' => 'varchar',
+        'length' => '50',
+        'not null' => TRUE,
+      ),
+      'SURNAME' => array(
+        'description' => 'user surname',
+        'type' => 'varchar',
+        'length' => '50',
+        'not null' => TRUE,
+      ),
+      'STATE' => array(
+        'description' => 'chef or guest',
+        'type' => 'varchar',
+        'length' => '50',
+        'not null' => TRUE,
+      ),
+      'EXPERIENCE' => array(
+        'description' => 'basic, medium, expert',
+        'type' => 'varchar',
+        'length' => '50',
+        'not null' => TRUE,
+      ),
+      'SEX' => array(
+        'description' => 'man or women',
+        'type' => 'varchar',
+        'length' => '50',
+        'not null' => TRUE,
+      ),
+      'AGE' => array(
+        'description' => 'user age',
+        'type' => 'varchar',
+        'length' => '50',
+        'not null' => TRUE,
+      ),
+      'COMENSALES' => array(
+        'description' => 'user age',
+        'type' => 'varchar',
+        'length' => '50',
+        'not null' => TRUE,
+      ),
+      'SF_DATE' => array(
+        'description' => 'date socialfood',
+        'type' => 'varchar',
+        'length' => '50',
+        'not null' => TRUE,
+      ),
+      'SF_HOUR' => array(
+        'description' => 'Hour socialfood',
+        'type' => 'varchar',
+        'length' => '50',
+        'not null' => TRUE,
+      ),
+      'PRICE_PP' => array(
+        'description' => 'Amount',
+        'type' => 'varchar',
+        'length' => '50',
+        'not null' => TRUE,
+      ),
+      'COUNTRY' => array(
+        'description' => 'Socialfood country',
+        'type' => 'varchar',
+        'length' => '50',
+        'not null' => TRUE,
+      ),
+      'PROVINCE' => array(
+        'description' => 'Socialfood province',
+        'type' => 'varchar',
+        'length' => '50',
+        'not null' => TRUE,
+      ),
+      'CITY' => array(
+        'description' => 'Socialfood city',
+        'type' => 'varchar',
+        'length' => '50',
+        'not null' => TRUE,
+      ),
+    ),
+  );
+
+  $schema['crm_socialfood_user'] = array(
+    'description' => 'A table to store socialfood user crm data.',
+    'fields' => array(
+      'SOCIALFOOD_ID' => array(
+        'description' => 'user name',
+        'type' => 'varchar',
+        'length' => '50',
+        'not null' => TRUE,
+      ),
+      'NAME' => array(
+        'description' => 'user name',
+        'type' => 'varchar',
+        'length' => '50',
+        'not null' => TRUE,
+      ),
+      'SURNAME' => array(
+        'description' => 'user surname',
+        'type' => 'varchar',
+        'length' => '50',
+        'not null' => TRUE,
+      ),
+      'TYPE' => array(
+        'description' => 'chef or guest',
+        'type' => 'varchar',
+        'length' => '50',
+        'not null' => TRUE,
+      ),
+      'EXPERIENCE' => array(
+        'description' => 'basic, medium, expert',
+        'type' => 'varchar',
+        'length' => '50',
+        'not null' => TRUE,
+      ),
+      'RATING' => array(
+        'description' => 'rating',
+        'type' => 'varchar',
+        'length' => '50',
+        'not null' => TRUE,
+      ),
+      'SEX' => array(
+        'description' => 'man or women',
+        'type' => 'varchar',
+        'length' => '50',
+        'not null' => TRUE,
+      ),
+      'AGE' => array(
+        'description' => 'user age',
+        'type' => 'varchar',
+        'length' => '50',
+        'not null' => TRUE,
+      ),
+      'NUMBER_SF' => array(
+        'description' => 'Number of socialfoods',
+        'type' => 'varchar',
+        'length' => '50',
+        'not null' => TRUE,
+      ),
+      'AVERAGE_TICKET' => array(
+        'description' => 'Average ticket',
+        'type' => 'varchar',
+        'length' => '50',
+        'not null' => TRUE,
+      ),
+      'AMOUNT' => array(
+        'description' => 'Amount',
+        'type' => 'varchar',
+        'length' => '50',
+        'not null' => TRUE,
+      ),
+      'BALANCE' => array(
+        'description' => 'User balance',
+        'type' => 'varchar',
+        'length' => '50',
+        'not null' => TRUE,
+      ),
+      'DISCHAGE_DATE' => array(
+        'description' => 'Dischage date',
+        'type' => 'varchar',
+        'length' => '50',
+        'not null' => TRUE,
+      ),
+      'DISCHAGE_TIME' => array(
+        'description' => 'Dischange time',
+        'type' => 'varchar',
+        'length' => '50',
+        'not null' => TRUE,
+      ),
+      'COUNTRY' => array(
+        'description' => 'User country',
+        'type' => 'varchar',
+        'length' => '50',
+        'not null' => TRUE,
+      ),
+      'PROVINCE' => array(
+        'description' => 'User province',
+        'type' => 'varchar',
+        'length' => '50',
+        'not null' => TRUE,
+      ),
+      'CITY' => array(
+        'description' => 'User city',
+        'type' => 'varchar',
+        'length' => '50',
+        'not null' => TRUE,
+      ),
+      'ORIGIN' => array(
+        'description' => 'Facebook, Twitter, Google, Instagram, Linkedin, Pinterest, Youtube, Snapchat, TikTok, Twitch, Reddit, Tumblr, Flickr, Vimeo, WhatsApp, Telegram, WeChat, Line, Medium, Quora, Spotify, SoundCloud, TikTok, Twitch, Reddit, Tumblr, Flickr, Vimeo, WhatsApp, Telegram, WeChat, Line, Medium, Quora, Spotify, SoundCloud',
+        'type' => 'varchar',
+        'length' => '50',
+        'not null' => TRUE,
+      ),
+      'GUEST' => array(
+        'description' => 'The number of invitation accepted',
+        'type' => 'varchar',
+        'length' => '50',
+        'not null' => TRUE,
+      ),
+    ),
+  );
+  return $schema;
+}

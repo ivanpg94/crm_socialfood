@@ -1,0 +1,8 @@
+name: 'CRM Socialfood'
+type: module
+despription: 'My amazing module for check users and socialfoods data. By Iván'
+core_version_requirement: ^8 || ^9 || ^10
+package: 'Socialfood'
+
+libraries:
+  - crm_socialfood/crm_socialfood

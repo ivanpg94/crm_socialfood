@@ -1,0 +1,13 @@
+crm_socialfood:
+  version: VERSION
+  js:
+    js/crm_socialfood.js: { }
+  css:
+    theme:
+      css/crm_socialfood.css: { }
+  dependencies:
+    - core/jquery
+    - core/drupal.ajax
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once

@@ -1,0 +1,8 @@
+<?php
+
+function crm_socialfood_element_info_alter(array &$types) {
+
+  if (isset($types['table'])) {
+    $types['table']['#attached']['library'][] = 'crm_socialfood/crm_socialfood';
+  }
+}
